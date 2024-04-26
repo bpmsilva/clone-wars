@@ -7,10 +7,19 @@ body {
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
 
-nav {
+#content {
+    margin: 0 auto;
     background-image: url('/netflix/assets/imgs/background.jpg');
     background-size: cover; /* This will make sure your image covers the whole nav container */
-    height: 32rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav {
+    max-width: 92rem;
+    width: 100%;
+    height: 46rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,7 +28,7 @@ nav {
 h1 {
     color: white;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 1rem;
 }
 
@@ -30,6 +39,14 @@ h1 {
 
 #center-menu p, #center-menu h3 {
     margin: 1rem;
+}
+
+#center-menu p {
+    font-size: 1.5rem;
+}
+
+#center-menu h3 {
+    font-size: 1.25rem;
 }
 
 #menus {
