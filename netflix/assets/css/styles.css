@@ -16,13 +16,14 @@ body {
     justify-content: center;
 }
 
-nav {
+#center-menus {
     max-width: 92rem;
     width: 100%;
     height: 46rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
@@ -35,6 +36,7 @@ h1 {
 #center-menu {
     color: white;
     text-align: center;
+    margin: auto;
 }
 
 #center-menu p, #center-menu h3 {
@@ -49,7 +51,7 @@ h1 {
     font-size: 1.25rem;
 }
 
-#menus {
+header {
     display: flex;
     margin: 1rem;
     justify-content: space-between;
