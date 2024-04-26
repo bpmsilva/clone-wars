@@ -84,6 +84,7 @@ header {
     padding: 4rem 0;
     display: flex;
     justify-content: space-around;
+    padding: 8rem;
 }
 
 #container footer {
@@ -160,4 +161,9 @@ footer {
 a {
     color: gray;
     font-size: 16px;
+}
+
+hr {
+    margin: 1rem 0;
+    border: 0.2rem solid gray;
 }
