@@ -1,7 +1,10 @@
 * {
     border: 1px solid black;
     margin: 0px;
+}
 
+body {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
 
 nav {
@@ -15,12 +18,23 @@ nav {
 
 h1 {
     color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+#center-menu {
+    color: white;
     text-align: center;
+}
+
+#center-menu p, #center-menu h3 {
+    margin: 1rem;
 }
 
 #menus {
     display: flex;
-    margin: 1rem 1rem;
+    margin: 1rem;
     justify-content: space-between;
 }
 
