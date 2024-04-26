@@ -1,0 +1,28 @@
+* {
+    border: 1px solid black;
+    margin: 0px;
+
+}
+
+nav {
+    background-image: url('/netflix/assets/imgs/background.jpg');
+    background-size: cover; /* This will make sure your image covers the whole nav container */
+    height: 32rem;
+}
+
+#menus {
+    display: flex;
+    margin: 1rem 1rem;
+    justify-content: space-between;
+}
+
+#small-logo {
+    color: red;
+    text-transform: uppercase;
+}
+
+#small-logo, #right-menu {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
