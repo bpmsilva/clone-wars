@@ -7,14 +7,17 @@ body {
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
 
-#background {
-    margin: 0 auto;
+#background-image {
     background-image: url('/netflix/assets/imgs/background.jpg');
     background-size: cover;
-    /* This will make sure your image covers the whole nav container */
+    margin: 0 auto;
+}
+
+#background {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background: radial-gradient(circle, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 100%);
 }
 
 #top-content {
@@ -23,7 +26,6 @@ body {
     height: 46rem;
     display: flex;
     flex-direction: column;
-    display: flex;
     justify-content: center;
 }
 
@@ -195,7 +197,7 @@ footer {
 
 a {
     color: gray;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 hr {
