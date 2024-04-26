@@ -8,6 +8,14 @@ nav {
     background-image: url('/netflix/assets/imgs/background.jpg');
     background-size: cover; /* This will make sure your image covers the whole nav container */
     height: 32rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
+    text-align: center;
 }
 
 #menus {
