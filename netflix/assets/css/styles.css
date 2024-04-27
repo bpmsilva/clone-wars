@@ -135,7 +135,8 @@ header {
 }
 
 #popcorn-divisor {
-    margin: -4rem;
+    margin: -4rem auto;
+    width: 90%
 }
 
 #container {
