@@ -5,6 +5,7 @@
 
 body {
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background-color: black;
 }
 
 #background-image {
@@ -17,7 +18,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background: radial-gradient(circle, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 100%);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%);
+    z-index: 1;
 }
 
 #top-content {
@@ -108,6 +110,38 @@ header {
     padding: 0.5rem;
 }
 
+#popcorn-divisor {
+    background: radial-gradient(120.35% 220% at 49.86% -6.29%, #e50914 0%, #0e1b4f 46.15%, #0d1121 100%);
+    margin: 0 4.5rem;
+    height: 6rem;
+    width: 100%;
+}
+
+#popcorn-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#popcorn-grid {
+    color: white;
+}
+
+#popcorn+div {
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#popcorn-divisor {
+    margin: -4rem;
+}
+
+#container {
+    margin: 4rem 0;
+}
+
 #container {
     background-color: black;
     color: white;
@@ -131,7 +165,6 @@ header {
     font-size: 3rem;
     padding: 4rem 0;
     display: flex;
-
 }
 
 .side-text h3 {
