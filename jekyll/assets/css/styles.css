@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(43, 43, 43);
+    padding: 15px;
+    height: 80px;
+}
+
+#search-bar {
+    width: 200px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+#logo img {
+    height: 65px;
+    margin: 40px;
+}
+
+.btn-container {
+    margin: 0 40px;
+}
+
+nav .btn-container {
+    list-style: none;
+    width: 550px;
+}
+
+.btn-container li {
+    display: inline;
+    padding: 7.875px 15.75px;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(255, 204, 0);
+    font-size: 15.75px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
