@@ -4,6 +4,7 @@
     --primary-color: rgb(255, 204, 0);
     --secondary-color: rgb(221, 221, 221);
     --terciary-color: rgb(255, 168, 0);
+    --strip-color: rgb(63, 31, 31);
 }
 
 * {
@@ -105,3 +106,21 @@ header a {
     font-weight: 300;
 }
 
+#quickstart {
+    margin: 60px 0;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background-color: var(--strip-color);
+}
+
+#quickstart h3 {
+    color: var(--secondary-color);
+    padding: 10px 10px 10px 20px;
+    font-size: 1.5em;
+}
+
+#quickstart div {
+    width: 978px;
+    margin: auto;
+}
