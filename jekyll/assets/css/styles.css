@@ -124,3 +124,12 @@ header a {
     width: 978px;
     margin: auto;
 }
+
+#center-div {
+    display: flex;
+}
+
+#terminal {
+    background-color: white;
+    width: 210px;
+}
